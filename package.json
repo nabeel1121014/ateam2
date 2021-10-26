@@ -3,8 +3,7 @@
   "version": "1.0.22",
   "description": "Cypress Page Object Basic Model ( Ready To Use ) - UI Test Automation Design Pattern for Cypress.io",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/padmarajnidagundi/Cypress-POM-Ready-To-Use"
@@ -39,5 +38,8 @@
   "homepage": "https://www.linkedin.com/in/padmarajn/",
   "dependencies": {
     "cypress": "^8.6.0"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^1.6.2"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://10clouds.com/",
+  "baseUrl": "https://www.cp.pt/passageiros/en",
   "watchForFileChanges": false,
     "video": false,
     "viewportWidth": 1920,
@@ -15,8 +15,8 @@
         "openMode": 0
     },
    "execTimout": 60000,
-    "defaultCommandTimeout": 10000,
-    "pageLoadTimeout": 60000,
-    "requestTimeout": 10000,
-    "responseTimeout": 30000
+   "defaultCommandTimeout": 10000,
+   "pageLoadTimeout": 60000,
+   "requestTimeout": 10000,
+   "responseTimeout": 30000
 }

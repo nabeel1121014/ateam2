@@ -1,18 +1,18 @@
 class HomePage {
 
    visit() {
-      cy.visit('/');
+      cy.visit('/',{failOnStatusCode: false});
 
       return this;
    }
 
    waitPageLoading(){
-      cy.get('a[href="https://10clouds.com/contact-us/"]').should("be.visible");
+      cy.get('a[href="/passageiros/en/buy-tickets"]').should("be.visible");
       return this;
    }
 
-   clickCareersLink(){
-      cy.get('nav.navigation').find('a[href="/careers/"]:visible').click();
+   clickBuyTicket(){
+      cy.get('a[href="/passageiros/en/buy-tickets"]').dblclick({force: true});
       return this;
    }
 }
